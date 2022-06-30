@@ -5,5 +5,16 @@ h1{
     font-family: Georgia;
     font-size: 25px;
     color:red;
-
 }
+.grid-container {
+   width: 500px;
+   display:grid;
+    grid-template:100px 200px 100px / 100px 100px;
+    border: 1px solid red ;
+    gap: 10px
+ 
+   
+  }
+  .grid-item {
+    
+  }
